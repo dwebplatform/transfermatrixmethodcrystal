@@ -9,7 +9,7 @@ class Layer:
     n0 = 1
     alfa0 = (math.pi/180)*0
 
-    def __init__(self, lamda, n, h,):
+    def __init__(self, lamda, n, h):
         self.n = n
         self.h = h
         self.k = (2*math.pi)/lamda
